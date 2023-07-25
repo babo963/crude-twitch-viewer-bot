@@ -2,9 +2,9 @@ name: Build and Test
 
 on:
   push:
-  workflow_dispatch: {}
     tags:
       - 'v*'
+  workflow_dispatch: {}
 
 env:
   PLAYWRIGHT_BROWSERS_PATH: 0
